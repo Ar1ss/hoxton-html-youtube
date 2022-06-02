@@ -1,0 +1,17 @@
+.videos-page {
+  background-color: rgb(255, 255, 255);
+  grid-area: videos-page;
+  overflow: scroll;
+}
+.videos-page {
+  display: grid;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+.videos-section__video {
+  height: 200px;
+  background-color: rgb(40, 33, 40);
+}

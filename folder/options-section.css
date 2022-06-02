@@ -1,0 +1,28 @@
+.options-section {
+  background-color: rgb(255, 255, 255);
+  grid-area: options-section;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  align-items: center;
+  border-top: solid #e3e1e1 1px;
+  border-bottom: solid #e3e1e1 1px;
+  position: sticky;
+  z-index: 10;
+  top: 55.5px;
+}
+.options-item {
+  border: solid #e3e1e1 1px;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  color: rgb(80, 79, 79);
+  place-content: center;
+}
+.options-section a {
+  text-decoration: none;
+  color: black;
+  place-items: center;
+}

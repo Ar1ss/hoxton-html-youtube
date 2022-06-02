@@ -1,0 +1,97 @@
+.header {
+  background-color: rgb(255, 255, 255);
+  grid-area: header;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index:20;
+}
+.header-image {
+  width: 100px;
+}
+.header-image-menu {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  place-content: start;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+.header-image-menu a {
+  color: #030303;
+}
+.header-image-menu span {
+  font-weight: 200;
+}
+.search-bar {
+  width: 500px;
+  height: 40px;
+  padding: 0.4rem;
+  border-radius: 0%;
+  border: solid #d3d3d3 0.1px;
+  border-right: none;
+  color: #d3d3d3;
+}
+.search-bar-button {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+}
+.search-bar-button span {
+  width: 60px;
+}
+.search-button {
+  border-radius: 0%;
+  border: solid #d3d3d3 0.1px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #f0f0f0;
+}
+.search-button span {
+  font-weight: 150;
+  align-self: center;
+  place-content: center;
+  color: black;
+}
+.center-header {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: center;
+  gap: 1rem;
+}
+.mic-button {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: #f9f9f9;
+}
+.mic-button span {
+  text-align: center;
+  font-weight: 500;
+}
+.header-right {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: end;
+  gap: 2rem;
+  place-items: center;
+  padding-right: 2rem;
+}
+.header-right a span {
+  text-decoration: none;
+  color: #030303;
+  font-weight: 200;
+}
+.profile {
+  border: solid 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+}
+.header-profile-image {
+  border-radius: 500%;
+}

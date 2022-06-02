@@ -1,0 +1,14 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-page {
+  height: 100vh;
+  display: grid;
+  grid-template:
+    "header     header    " auto
+    "left-side-menu  options-section " 50px
+    "left-side-menu    videos-page   " 1fr /
+    250px 1fr auto;
+}
